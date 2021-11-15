@@ -41,6 +41,13 @@ Be prepared to explain motivations behind overall design of your service, deploy
 * settings/config
 * Grammar checks
 
+# Run
+Run with Docker:
+`docker-compose up`
+
+Then go to the following URL on a browser (can also use Postman to send a GET request)
+`http://localhost:8080/madlib`
+
 # Testing
 Locally run all unit tests:
 `python -m unittest discover`
