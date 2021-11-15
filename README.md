@@ -30,8 +30,7 @@ Be prepared to explain motivations behind overall design of your service, deploy
 # Initial Design Considerations
 
 * SentenceTemplate
-  * enhancement: be able to fetch from db 
-* Sentence
+  * enhancement: be able to fetch from db
   * Build sentence     
 * RandomWord Interface (behavior)
   * Default - mock
@@ -41,3 +40,13 @@ Be prepared to explain motivations behind overall design of your service, deploy
   + Be prepared for external dependency (the API) failures. 
 * settings/config
 * Grammar checks
+
+# Testing
+Locally run all unit tests:
+`python -m unittest discover`
+
+Run all unit tests on docker:
+`docker exec madlibs_backend_1 python -m unittest discover`
+
+Run unit tests for a single file on docker:
+`docker exec madlibs_backend_1 python -m unittest tests.sentence.test_sentence_template`
