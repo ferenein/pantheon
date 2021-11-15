@@ -1,4 +1,4 @@
-# Implementation for Madlibs project by Youngho Ka
+# Implementation for the below Madlibs project
 
 ---
 # Service Engineer Coding Exercise: Madlibs
