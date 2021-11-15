@@ -15,7 +15,7 @@ class SentenceTemplate:
         return sentence
 
     def get_words(self) -> dict:
-        self._load()
+        self._prepare()
 
         # TODO: send parallel requests
         words = {}
@@ -27,7 +27,7 @@ class SentenceTemplate:
     def _get_word(self, word_category: str) -> dict:
         return {word_category: self._word_generator.get_word(word_category) for i in range(self._counts[word_category])}
 
-    def _load(self) -> None:
+    def _prepare(self) -> None:
         self._count_word_categories()
         # TODO: Support multiple adjectives, verbs, and/or nouns.
         #  if a sentence template has multiple (let's say) adjectives, the second and third ones

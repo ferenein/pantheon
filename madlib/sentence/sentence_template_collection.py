@@ -7,7 +7,7 @@ class SentenceTemplateCollection:
         self._templates = [
             SentenceTemplate('It was a {adjective} day. I went downstairs to see if I could {verb} dinner. '
                              'I asked, "Does the stew need fresh {noun}?"'),
-            SentenceTemplate('Can I have these {adjective} {noun}?')
+            SentenceTemplate('Can I {verb} these {adjective} {noun}?')
         ]
 
     def add_template(self, template_string: str) -> None:
@@ -20,3 +20,10 @@ class SentenceTemplateCollection:
     def get_random_template(self) -> SentenceTemplate:
         random_index = random.randint(0, len(self._templates) - 1)
         return self.get_template(random_index)
+
+    def load_templates_from_db(self):
+        """
+        TODO: Enhancement
+        :return:
+        """
+        pass
