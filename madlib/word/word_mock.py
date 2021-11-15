@@ -1,5 +1,5 @@
-from src.word import Category
-from src.word.word_interface import WordInterface
+from madlib.word import Category
+from madlib.word.word_interface import WordInterface
 
 
 DEFAULT_WORDS = {

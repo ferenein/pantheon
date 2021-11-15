@@ -1,8 +1,8 @@
 import unittest
 
-from src.sentence.sentence_template import SentenceTemplate
-from src.sentence.sentence_template_collection import SentenceTemplateCollection
-from src.word.word_mock import WordMock
+from madlib.sentence.sentence_template import SentenceTemplate
+from madlib.sentence.sentence_template_collection import SentenceTemplateCollection
+from madlib.word.word_mock import WordMock
 
 
 class SentenceTemplateTestCase(unittest.TestCase):

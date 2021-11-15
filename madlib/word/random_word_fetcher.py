@@ -1,6 +1,6 @@
-from src.shared import request
-from src.word.word_interface import WordInterface
-from src.word.word_mock import DEFAULT_WORDS
+from madlib.shared import request
+from madlib.word.word_interface import WordInterface
+from madlib.word.word_mock import DEFAULT_WORDS
 
 
 class RandomWordFetcher(WordInterface):

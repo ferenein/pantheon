@@ -1,6 +1,6 @@
-from src.grammar import Grammar
-from src.sentence.sentence_template import SentenceTemplate
-from src.sentence.sentence_template_collection import SentenceTemplateCollection
+from madlib.grammar import Grammar
+from madlib.sentence.sentence_template import SentenceTemplate
+from madlib.sentence.sentence_template_collection import SentenceTemplateCollection
 
 
 def get_sentence():

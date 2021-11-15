@@ -1,9 +1,9 @@
 import httpretty
 import unittest
 
-from src.word import Category
-from src.word.random_word_fetcher import RandomWordFetcher
-from src.word.word_mock import DEFAULT_WORDS
+from madlib.word import Category
+from madlib.word.random_word_fetcher import RandomWordFetcher
+from madlib.word.word_mock import DEFAULT_WORDS
 
 
 class RandomWordFetcherTestCase(unittest.TestCase):

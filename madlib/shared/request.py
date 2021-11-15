@@ -1,6 +1,6 @@
 import requests
 
-from src.shared.logger import with_logging
+from madlib.shared.logger import with_logging
 
 DEFAULT_TIMEOUT = 2
 

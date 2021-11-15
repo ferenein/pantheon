@@ -1,6 +1,6 @@
-from src.word import Category
-from src.word.random_word_fetcher import RandomWordFetcher
-from src.word.word_interface import WordInterface
+from madlib.word import Category
+from madlib.word.random_word_fetcher import RandomWordFetcher
+from madlib.word.word_interface import WordInterface
 
 
 class SentenceTemplate:

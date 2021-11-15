@@ -1,7 +1,7 @@
 import unittest
 
-from src.sentence.sentence_template import SentenceTemplate
-from src.word.word_mock import WordMock, DEFAULT_WORDS
+from madlib.sentence.sentence_template import SentenceTemplate
+from madlib.word.word_mock import WordMock, DEFAULT_WORDS
 
 
 class SentenceTemplateTestCase(unittest.TestCase):

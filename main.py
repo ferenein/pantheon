@@ -1,5 +1,5 @@
 from flask import Flask
-from src import get_sentence
+from madlib import get_sentence
 
 app = Flask(__name__)
 
@@ -17,6 +17,4 @@ def madlib():
 if __name__ == '__main__':
     from waitress import serve
     serve(app, host="0.0.0.0", port=5000)
-
-    # app.run(debug=True, host='0.0.0.0')
 

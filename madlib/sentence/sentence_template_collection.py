@@ -1,4 +1,4 @@
-from src.sentence.sentence_template import SentenceTemplate
+from madlib.sentence.sentence_template import SentenceTemplate
 import random
 
 
